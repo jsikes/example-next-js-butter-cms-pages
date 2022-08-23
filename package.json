@@ -1,0 +1,22 @@
+{
+  "name": "example-next-js-butter-cms-pages",
+  "version": "1.0.0",
+  "description": "Using Butter CMS to populate static page content with a Next.js app",
+  "main": "index.js",
+  "repository": "https://github.com/jsikes/example-next-js-butter-cms-pages.git",
+  "author": "Joey Sikes <sikes@me.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "buttercms": "^1.2.9",
+    "next": "^12.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
